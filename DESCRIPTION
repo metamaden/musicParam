@@ -1,0 +1,23 @@
+Package: musicParam
+Version: 0.0.1
+Title: Object class definition and methods for MuSiC, a type of deconvolution algorithm.
+Authors@R: c(person(c("Sean", "K"), "Maden", role = c("cre", "aut"), 
+    email = "maden.sean@gmail.com", comment = c(ORCID = "0000-0002-2212-4894")))
+Description: Object class definition and methods for MuSiC, a type of deconvolution algorithm.
+License: Artistic-2.0
+Encoding: UTF-8
+URL: https://github.com/metamaden/musicParam
+BugReports: https://github.com/metamaden/musicParam/issues
+LazyData: FALSE
+Depends:
+    R (>= 4.3.0),
+    stats,
+    methods,
+    utils,
+    SummarizedExperiment,
+    SingleCellExperiment,
+    BiocGenerics,
+    lute,
+    S4Vectors,
+    GenomicRanges
+RoxygenNote: 7.2.3
